@@ -35,7 +35,7 @@ header {
     background-color: rgb(245, 245, 245);
     height: 100vh;
 }
-.card{
+.card{ 
     background-color: white;
     margin-left: 5vh;
     margin-top: 5vh;
@@ -46,16 +46,24 @@ header {
     display: flex; 
     justify-content: space-between
 }
-.card img {
-    float: left;
+.roundetImg {
     padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
     vertical-align: middle;
-    width: 70px;
-    height: 70px;
+    width: 4.5rem;
+    height: 4.5rem;
     object-fit: cover;
     border-radius: 3em;
 }
 .sidebar {
     max-width: 30vw;
-    float: right;
+}
+.cardInfo p{
+    margin: 0 !important; 
+}
+.cardInfo{
+    margin-top: 10px; 
+    padding-top: 12px;
+    padding-left: 10px; 
 }
