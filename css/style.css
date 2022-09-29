@@ -4,6 +4,10 @@
     scroll-behavior: smooth;
 }
 header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
     padding-bottom: 5px;
     display: flex; 
     justify-content: space-between;
@@ -48,8 +52,8 @@ header {
 }
 .roundetImg {
     padding: 10px;
-    margin-top: 10px;
-    margin-left: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
     vertical-align: middle;
     width: 4.5rem;
     height: 4.5rem;
@@ -63,7 +67,36 @@ header {
     margin: 0 !important; 
 }
 .cardInfo{
-    margin-top: 10px; 
+    margin-top: 5px; 
     padding-top: 12px;
     padding-left: 10px; 
+}
+.cardImg{
+    padding-top: 10px;
+    width: 100%;
+    max-height: 60vh;
+    object-fit: cover;
+}
+.cardHeader{
+    height: 70px;
+}
+.cardFooter{
+    height: 130px;
+}
+#likeButton{
+    padding: 10px;
+    padding-bottom: 0;
+}
+#likeButton:hover{
+    cursor: pointer;
+}
+#commentButton:hover{
+    cursor: pointer;
+}
+#commentButton {
+    padding: 10px;
+    padding-bottom: 0;
+}
+.pl-2 {
+    padding-left: 10px !important; 
 }
