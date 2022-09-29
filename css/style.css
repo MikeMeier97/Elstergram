@@ -3,7 +3,6 @@
     padding: 0; 
     scroll-behavior: smooth;
 }
-
 header {
     padding-bottom: 5px;
     display: flex; 
@@ -11,24 +10,45 @@ header {
     align-items: center;
     border-bottom: 1px solid rgb(206, 206, 206);
 }
-
 .search ::placeholder {
     text-align: center;
     background-color: rgb(255, 255, 255);
 }
-
 .headerIcons img{
     padding-right: 20px;
 }
 .headerIcons {
     padding-right: 10px;    
 }
-
 .headerTitle {
     font-family: 'Pacifico';
     padding-top:10px;
     padding-left: 10px;
 }
+.headerTitle h1{
+    font-size: 32px;
+}
 .p-10{
     padding: 10px !important;
+}
+.surface{
+    background-color: rgb(245, 245, 245);
+    height: 100vh;
+}
+.card{
+    margin-top: 30px;
+    width: 70vw;
+    max-width: 70vw;
+}
+.card img {
+    padding: 10px;
+    vertical-align: middle;
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 3%;
+    border-radius: 3em;
+}
+.sidebar {
+    max-width: 30vw;
 }
