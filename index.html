@@ -13,7 +13,7 @@
     <script src="./js/script.js"></script>
     <title>Elstergram</title>
   </head>
-  <body>
+  <body onload="onload()">
     <header>
       <div class="headerTitle">
         <h1>Elstergram</h1>
@@ -68,24 +68,26 @@
                 <i class="text-primary">#Elstergram</i>
               </p>
             </div>
-            <div id="comment" class="comments">
-              <p class="pl-2"><b>Mike</b> Sehr sehr schöner Ort</p>
+            <div id="commentField" class="comments">
+              
             </div>
             <div class="inputComment">
               <div class="input-group mb-3 inputDesing">
                 <input
+                  id="commentText"
                   type="text"
                   class="form-control"
                   placeholder="Kommentar"
                   aria-label="Username"
                 />
                 <input
+                  id="commentUsername"
                   type="text"
                   class="form-control"
                   placeholder="Username"
                   aria-label="Server"
                 />
-                <button type="button" class="btn btn-primary">
+                <button onclick="pushComment()" type="button" class="btn btn-primary">
                   Kommentieren
                 </button>
               </div>
