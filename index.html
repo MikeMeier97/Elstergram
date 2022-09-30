@@ -52,16 +52,44 @@
           />
           <div class="cardFooter">
             <div>
-              <img id="likeButton" src="./img/heart-black.png" />
+              <img
+                onclick="like()"
+                id="likeButton"
+                src="./img/heart-black.png"
+              />
               <img id="commentButton" src="./img/comments-24.png" />
             </div>
-            <p class="pl-2 pt-2 m-0"><b>Gefällt 35 Mal</b></p>
-            <p class="pl-2 pt-2">
-              <b>Username</b> i would stay here 4ever!
-              <i class="text-primary">#vacatation</i>
-              <i class="text-primary"> #lifesgood</i>
-              <i class="text-primary">#Elstergram</i>
-            </p>
+            <div class="comments">
+              <p class="pl-2 pt-2 m-0"><b>Gefällt 35 Mal</b></p>
+              <p class="pl-2 pt-2">
+                <b>Username</b> i would stay here 4ever!
+                <i class="text-primary">#vacatation</i>
+                <i class="text-primary"> #lifesgood</i>
+                <i class="text-primary">#Elstergram</i>
+              </p>
+            </div>
+            <div id="comment" class="comments">
+              <p class="pl-2"><b>Mike</b> Sehr sehr schöner Ort</p>
+            </div>
+            <div class="inputComment">
+              <div class="input-group mb-3 inputDesing">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Kommentar"
+                  aria-label="Username"
+                />
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Username"
+                  aria-label="Server"
+                />
+                <button type="button" class="btn btn-primary">
+                  Kommentieren
+                </button>
+              </div>
+            </div>
           </div>
         </div>
         <div class="sidebar">

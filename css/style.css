@@ -97,3 +97,11 @@ header {
 .pl-2 {
   padding-left: 10px !important;
 }
+.comments b {
+  padding-left: px;
+  padding-bottom: 10px;
+}
+.inputDesing {
+  margin-left: 1%;
+  width: 98%;
+}
