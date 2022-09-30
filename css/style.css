@@ -1,102 +1,99 @@
 * {
-    margin: 0; 
-    padding: 0; 
-    scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
 }
 header {
-    position: sticky;
-    top: 0;
-    z-index: 1;
-    background-color: white;
-    padding-bottom: 5px;
-    display: flex; 
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid rgb(206, 206, 206);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(206, 206, 206);
 }
 .search ::placeholder {
-    text-align: center;
-    background-color: rgb(255, 255, 255);
+  text-align: center;
+  background-color: rgb(255, 255, 255);
 }
-.headerIcons img{
-    padding-right: 20px;
+.headerIcons img {
+  padding-right: 20px;
 }
 .headerIcons {
-    padding-right: 10px;    
+  padding-right: 10px;
 }
 .headerTitle {
-    font-family: 'Pacifico';
-    padding-top:10px;
-    padding-left: 10px;
+  font-family: "Pacifico";
+  padding-top: 10px;
+  padding-left: 10px;
 }
-.headerTitle h1{
-    font-size: 32px;
+.headerTitle h1 {
+  font-size: 32px;
 }
-.p-10{
-    padding: 10px !important;
+.p-10 {
+  padding: 10px !important;
 }
-.surface{
-    background-color: rgb(245, 245, 245);
-    height: 100vh;
+.surface {
+  background-color: rgb(245, 245, 245);
+  height: 100vh;
 }
-.card{ 
-    background-color: white;
-    margin-left: 5vh;
-    margin-top: 5vh;
-    width: 60vw;
-    max-width: 70vw;
+.card {
+  background-color: white;
+  margin-left: 5vh;
+  margin-top: 5vh;
+  width: 60vw;
+  max-width: 70vw;
 }
-.content{
-    display: flex; 
-    justify-content: space-between
+.content {
+  display: flex;
+  justify-content: space-between;
 }
 .roundetImg {
-    padding: 10px;
-    margin-top: 5px;
-    margin-left: 5px;
-    vertical-align: middle;
-    width: 4.5rem;
-    height: 4.5rem;
-    object-fit: cover;
-    border-radius: 3em;
+  padding: 10px;
+  margin-top: 5px;
+  margin-left: 5px;
+  vertical-align: middle;
+  width: 4.5rem;
+  height: 4.5rem;
+  object-fit: cover;
+  border-radius: 3em;
 }
 .sidebar {
-    max-width: 30vw;
+  max-width: 30vw;
 }
-.cardInfo p{
-    margin: 0 !important; 
+.cardInfo p {
+  margin: 0 !important;
 }
-.cardInfo{
-    margin-top: 5px; 
-    padding-top: 12px;
-    padding-left: 10px; 
+.cardInfo {
+  margin-top: 5px;
+  padding-top: 12px;
+  padding-left: 10px;
 }
-.cardImg{
-    padding-top: 10px;
-    width: 100%;
-    max-height: 60vh;
-    object-fit: cover;
+.cardImg {
+  padding-top: 10px;
+  width: 100%;
+  max-height: 60vh;
+  object-fit: cover;
 }
-.cardHeader{
-    height: 70px;
+.cardHeader {
+  height: 70px;
 }
-.cardFooter{
-    height: 130px;
+#likeButton {
+  padding: 10px;
+  padding-bottom: 0;
 }
-#likeButton{
-    padding: 10px;
-    padding-bottom: 0;
+#likeButton:hover {
+  cursor: pointer;
 }
-#likeButton:hover{
-    cursor: pointer;
-}
-#commentButton:hover{
-    cursor: pointer;
+#commentButton:hover {
+  cursor: pointer;
 }
 #commentButton {
-    padding: 10px;
-    padding-bottom: 0;
+  padding: 10px;
+  padding-bottom: 0;
 }
 .pl-2 {
-    padding-left: 10px !important; 
+  padding-left: 10px !important;
 }
