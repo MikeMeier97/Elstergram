@@ -3,12 +3,12 @@
     font-family: 'Pacifico';
     font-style: normal;
     font-weight: 400;
-    src: url('/Elstergram/Fonts/fonts/pacifico-v22-latin-regular.eot'); /* IE9 Compat Modes */
+    src: url('../Fonts/fonts/pacifico-v22-latin-regular.eot'); /* IE9 Compat Modes */
     src: local(''),
-         url('/Elstergram/Fonts/pacifico-v22-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('/Elstergram/Fonts/pacifico-v22-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('/Elstergram/Fonts/pacifico-v22-latin-regular.woff') format('woff'), /* Modern Browsers */
-         url('/Elstergram/Fonts/fonts/pacifico-v22-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('/Elstergram/Fonts/fonts/pacifico-v22-latin-regular.svg#Pacifico') format('svg'); /* Legacy iOS */
+         url('../Fonts/pacifico-v22-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../Fonts/pacifico-v22-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../Fonts/pacifico-v22-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../Fonts/fonts/pacifico-v22-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../Fonts/fonts/pacifico-v22-latin-regular.svg#Pacifico') format('svg'); /* Legacy iOS */
   }
   
