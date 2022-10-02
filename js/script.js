@@ -14,14 +14,14 @@ function onload() {
 }
 
 function like() {
-  document.getElementById("likeButton").src = "./img/heart-red.png";
+  document.getElementById('likeButton').src = "./img/heart-red.png";
   document.getElementById('Likes').innerHTML = `Gefällt 36 Mal`;
 }
 
 function pushComment() {
   let Username = document.getElementById('commentUsername').value; 
   let Text = document.getElementById('commentText').value; 
-  comments.push = {"name": Username, "commentText": Text};
+  comments.push({"name": Username, "commentText": Text});
   console.log(comments);
   document.getElementById('commentUsername').value = ``;
   document.getElementById('commentText').value = ``;
