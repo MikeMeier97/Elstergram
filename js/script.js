@@ -1,7 +1,11 @@
-let comments = [
+var comments = [
   {
     name: "MikeHowards",
     commentText: "Sehr sehr schöner Ort",
+  },
+  {
+    name: "Lisa24",
+    commentText: "Da wäre ich jetzt auch gerne..",
   },
 ];
 
@@ -11,10 +15,17 @@ function onload() {
 
 function like() {
   document.getElementById("likeButton").src = "./img/heart-red.png";
+  document.getElementById('Likes').innerHTML = `Gefällt 36 Mal`;
 }
 
 function pushComment() {
-  console.log();
+  let Username = document.getElementById('commentUsername').value; 
+  let Text = document.getElementById('commentText').value; 
+  comments.push = {"name": Username, "commentText": Text};
+  console.log(comments);
+  document.getElementById('commentUsername').value = ``;
+  document.getElementById('commentText').value = ``;
+  renderComments();
 }
 
 function renderComments() {
@@ -22,6 +33,6 @@ function renderComments() {
   commentField.innerHTML = ``;
   for (let i = 0; i < comments.length; i++) {
     let comment = comments[i];
-    commentField.innerHTML += `<p class="pl-2"><b>${comment["name"]} </b> ${comment["commentText"]}</p>`;
+    commentField.innerHTML += `<p class="commentLine"><b>${comment["name"]} </b> ${comment["commentText"]}</p>`;
   }
 }

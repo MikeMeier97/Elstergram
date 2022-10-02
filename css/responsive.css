@@ -1,0 +1,20 @@
+@media (max-width: 600px) {
+  .sidebar {
+    display: none;
+  }
+  .card {
+    width: 100vw !important;
+    margin-left: 0 !important;
+  }
+  .search {
+    display: none;
+  }
+  #iconCompass {
+    display: none;
+    padding: 5px !important;
+  }
+  #iconHome {
+    display: none;
+    padding: 5px !important;
+  }
+}

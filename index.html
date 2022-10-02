@@ -9,6 +9,7 @@
       rel="stylesheet"
       href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
     />
+    <link rel="stylesheet" href="./css/responsive.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <script src="./js/script.js"></script>
     <title>Elstergram</title>
@@ -30,9 +31,9 @@
       </div>
       <div class="headerIcons">
         <img id="iconHome" src="./img/home-7-24.png" alt="Home" />
-        <img id="iconMessage" src="./img/paper-plane-24.png" alt="Message" />
         <img id="iconCompass" src="./img/compass-3-24.png" alt="Entdecken" />
         <img id="iconFavorite" src="./img/favorite-4-24.png" alt="Favorite" />
+        <img id="iconMessage" src="./img/paper-plane-24.png" alt="Message" />
       </div>
     </header>
     <div class="surface">
@@ -60,7 +61,7 @@
               <img id="commentButton" src="./img/comments-24.png" />
             </div>
             <div class="comments">
-              <p class="pl-2 pt-2 m-0"><b>Gefällt 35 Mal</b></p>
+              <p class="pl-2 pt-2 m-0"><b id="Likes">Gefällt 35 Mal</b></p>
               <p class="pl-2 pt-2">
                 <b>Username</b> i would stay here 4ever!
                 <i class="text-primary">#vacatation</i>
@@ -68,9 +69,7 @@
                 <i class="text-primary">#Elstergram</i>
               </p>
             </div>
-            <div id="commentField" class="comments">
-              
-            </div>
+            <div id="commentField" class="comments"></div>
             <div class="inputComment">
               <div class="input-group mb-3 inputDesing">
                 <input
@@ -87,7 +86,11 @@
                   placeholder="Username"
                   aria-label="Server"
                 />
-                <button onclick="pushComment()" type="button" class="btn btn-primary">
+                <button
+                  onclick="pushComment()"
+                  type="button"
+                  class="btn btn-primary"
+                >
                   Kommentieren
                 </button>
               </div>
